@@ -1,0 +1,25 @@
+{
+  "name": "another-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./prod/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "another-bot"
+  },
+  "author": "mrlulu51.jar",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "typescript": "^4.3.4"
+  }
+}
